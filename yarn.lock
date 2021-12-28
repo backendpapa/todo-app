@@ -5157,7 +5157,7 @@ prompts@^2.0.1, prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.8.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.0.tgz#d237e624c45a9846e469f5f31117f970017ff588"
   integrity sha512-fDGekdaHh65eI3lMi5OnErU6a8Ighg2KjcjQxO7m8VHyWjcPyj5kiOgV1LQDOOOgVy3+5FgjXvdSSX7B8/5/4g==
@@ -5215,6 +5215,13 @@ react-native-codegen@^0.0.7:
     flow-parser "^0.121.0"
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
+
+react-native-web-swiper@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-web-swiper/-/react-native-web-swiper-2.2.2.tgz#5a3bf2df3b1d692d81d9ab5e57609b399d2f7eeb"
+  integrity sha512-w3ZcJAulo8FmGpLJ3OA+0ZctHpZR4JLL9Rv7kVLeA3JSTIPoJZZA5MVdWksIXy6MUT2UbBVCZYTzSK7mE+x9/g==
+  dependencies:
+    prop-types "^15.6.2"
 
 react-native@0.66.4:
   version "0.66.4"
